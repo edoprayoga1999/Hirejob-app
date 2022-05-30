@@ -21,7 +21,7 @@ export default function Navbar1(props) {
     <nav className='d-flex align-items-center' style={{width: '80%', paddingTop: '35px', paddingBottom: '35px'}}>
         <Link href='/'><Image src='/peworld.png' height={35} width={125} alt='' /></Link>
         <div style={{marginLeft: 'auto', marginRight: '45px'}}><Image src='/bell.svg' height={24} width={24} alt='' /></div>
-        <div style={{marginRight: '52px'}}><Image src='/mail.svg' height={24} width={24} alt='' /></div>
+        <Link href='/chat'><div style={{marginRight: '52px'}}><Image src='/mail.svg' height={24} width={24} alt='' /></div></Link>
         <Dropdown isOpen={dropdownOpen} toggle={toggle}>
         <DropdownToggle style={{backgroundColor: '#FFFFFF', border: 'none'}}>
         <div style={{width: '32px', height: '32px', borderRadius: '999px', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundImage: `url('${process.env.NEXT_PUBLIC_BACKEND_URL}/${props.photo}')`}} />

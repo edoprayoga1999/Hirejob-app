@@ -13,7 +13,7 @@ export default function middleware(req) {
   if (level === '0' && (pathname === '/company/home' || pathname === '/company/profile' || pathname === '/company/profile/edit')) {
     return NextResponse.redirect(`${origin}/home`)
   }
-  if (level === '1' && pathname === '/home') {
+  if (level === '1' && (pathname === '/home' || pathname === '/chat')) {
     return NextResponse.redirect(`${origin}/company/home`)
   }
   if (level === '1' && (pathname === '/profile' || pathname === '/profile/edit')) {

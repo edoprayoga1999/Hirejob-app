@@ -28,7 +28,7 @@ export async function getServerSideProps(context) {
     try {
       const response = await axios({
         method: 'GET',
-        url: `${process.env.NEXT_PUBLIC_BACKEND_URL}/allusers?name=${search}&field=${fields}&type=${sortType}&page=${page}&limit=1`,
+        url: `${process.env.NEXT_PUBLIC_BACKEND_URL}/allusers?name=${search}&field=${fields}&type=${sortType}&page=${page}&limit=3`,
         headers: {
           token
         }
