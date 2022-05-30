@@ -44,9 +44,15 @@ export async function getServerSideProps(context) {
   }
   const getUserProfile = async () => {
     try {
+      let url
+      if (level === '1') {
+        url = `${process.env.NEXT_PUBLIC_BACKEND_URL}/recruiter/myprofile`
+      } else {
+        url = `${process.env.NEXT_PUBLIC_BACKEND_URL}/myprofile`
+      }
       const response = await axios({
         method: 'GET',
-        url: `${process.env.NEXT_PUBLIC_BACKEND_URL}/myprofile`,
+        url,
         headers: {
           token
         }
