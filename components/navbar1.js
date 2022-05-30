@@ -19,7 +19,7 @@ export default function Navbar1(props) {
   const toggle = () => setDropdownOpen(!dropdownOpen)
   return (
     <nav className='d-flex align-items-center' style={{width: '80%', paddingTop: '35px', paddingBottom: '35px'}}>
-        <Link href='/'><Image src='/peworld.png' height={35} width={125} alt='' /></Link>
+        <Link href='/home'><Image src='/peworld.png' height={35} width={125} alt='' /></Link>
         <div style={{marginLeft: 'auto', marginRight: '45px'}}><Image src='/bell.svg' height={24} width={24} alt='' /></div>
         <Link href='/chat'><div style={{marginRight: '52px'}}><Image src='/mail.svg' height={24} width={24} alt='' /></div></Link>
         <Dropdown isOpen={dropdownOpen} toggle={toggle}>
