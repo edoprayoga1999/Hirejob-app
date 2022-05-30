@@ -1,0 +1,11 @@
+.inputClass{
+  width: 100%;
+  height: 60px;
+  border: none;
+}
+.inputClass:focus{
+  outline: none;
+}
+.inputSelect:focus{
+  outline: none;
+}

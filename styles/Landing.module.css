@@ -1,0 +1,15 @@
+.navButton{
+  padding: 10px 20px;
+  border: 2px solid #5E50A1;
+  border-radius: 5px;
+}
+.heroButton{
+  width: 210px;
+  background-color: #5E50A1;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 20px 23px;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+}
