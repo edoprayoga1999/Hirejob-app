@@ -42,10 +42,31 @@ export async function getServerSideProps(context) {
       }
     }
   }
+  const getUserProfile = async () => {
+    try {
+      const response = await axios({
+        method: 'GET',
+        url: `${process.env.NEXT_PUBLIC_BACKEND_URL}/myprofile`,
+        headers: {
+          token
+        }
+      })
+      return {
+        data: response.data.data,
+        error: false
+      }
+    } catch (err) {
+      return {
+        data: [],
+        error: true
+      }
+    }
+  }
   return {
     props: {
       data: [],
-      profileDetail: await getUserDetail(),
+      profileDetail: await getUserProfile(),
+      otherProfileDetail: await getUserDetail(),
       token,
       level,
       userId
@@ -54,7 +75,7 @@ export async function getServerSideProps(context) {
 }
 
 function DetailProfile(props) {
-  const userData = props.profileDetail.data[0]
+  const userData = props.otherProfileDetail.data[0]
   const [loading, setLoading] = useState(false)
   const sentHiringMessage = (e) => {
     e.preventDefault()
