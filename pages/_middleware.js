@@ -4,7 +4,7 @@ import { NextResponse } from "next/server"
 export default function middleware(req) {
   const { token, level } = req.cookies
   const { pathname, origin } = req.nextUrl
-  console.log(pathname)
+
   if (!token && pathname !== '/login' && pathname !== '/login/recruiter' && pathname !== '/register' && pathname !== '/register/recruiter' && pathname !== '/' && pathname !== '/backgroundpic.jpg' && pathname !== '/favicon.ico' && pathname !== '/peworld.png') {
     return NextResponse.redirect(`${origin}/login`)
   }
