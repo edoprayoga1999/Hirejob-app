@@ -1,34 +1,195 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/edoprayoga1999/Hirejob-app/">
+    <img src="screenshots/logo.svg" alt="Logo" width="80" height="80">
+  </a>
 
+  <h3 align="center">Hirejob - App</h3>
+
+  <p align="center">
+    Start finding your dream jobs!
+    <br />
+    <a href="https://github.com/edoprayoga1999/Hirejob-app/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://hirejob-app.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/edoprayoga1999/Hirejob-app/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/edoprayoga1999/Hirejob-app/issues">Request Feature</a>
+    <br />
+    <p align="center">
+    <a href="https://nextjs.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/Telegram-Chatting-App/next"></a>
+    <a href="https://reactjs.org/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/Telegram-Chatting-App/react"></a>
+    <a href="https://axios-http.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/Telegram-Chatting-App/axios"></a>
+    <a href="https://getbootstrap.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/Telegram-Chatting-App/bootstrap"></a>
+    <a href="https://momentjs.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/Telegram-Chatting-App/moment"></a>
+    <img src="https://img.shields.io/github/license/edoprayoga1999/Hirejob-app">
+    </p>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Hirejob - App is an application that is used as a platform for job seekers and recruiters. This application has 2 user roles, namely Worker as a job seeker, and Recruiter as a recruiter.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Built With
+
+This application is built with the following technologies:
+
+* [Javascript](https://www.javascript.com/)
+* [CSS](https://developer.mozilla.org/id/docs/Web/CSS)
+* [Next.js](https://nextjs.org)
+* [React.js](https://reactjs.org/)
+* [Axios](https://axios-http.com)
+* [Bootstrap](https://getbootstrap.com)
+* [Moment](https://momentjs.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+To set up this project locally and get a local copy up, follow thes simple steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Things that you need to run this application
+* Node.js
+  
+### Installation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone this front-end repository
+   ```sh
+   git clone https://github.com/edoprayoga1999/Hirejob-app.git
+   ```
+2. Go to repo local folder
+   ```sh
+   cd Hirejob-app
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Setup your env , based on env.example
+   ```
+   NEXT_PUBLIC_BACKEND_URL= 
+   ```
+5. Run your app
+   ```
+   // if you want to run in development
+   npm run dev
+   
+   // if you want to run in production
+   npm run start
+   ```
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Screenshot
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<p align="center" display=flex>
+  <image src="screenshots/landing-page.png" alt="Landing Page" width=100%>
+    <p align="center">Landing Page</p>
+<table>
+  <tr>
+    <td><image src="screenshots/login-page.png" alt="Login Page" width=100%></td>
+    <td><image src="screenshots/register-page.png" alt="Register Page" width=100%/></td>
+  </tr>
+   <tr>
+    <td>Login Page</td>
+    <td>Register Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="screenshots/home-page.png" alt="Home Page" width=100%></td>
+    <td><image src="screenshots/my-profile.png" alt="My Profile Page" width=100%/></td>
+  </tr>
+  <tr>
+    <td>Home Page</td>
+    <td>My Profile Page</td>
+  </tr>
 
-## Learn More
+  <tr>
+    <td><image src="screenshots/recruiter-profile-page.png" alt="Recruiter Profile Page" width=100%></td>
+    <td><image src="screenshots/edit-profile.png" alt="Edit Profile Page" width=100%></td>
+  </tr>
+  <tr>
+      <td>Recruiter Profile Page</td>
+      <td>Edit Profile Page</td>
+  </tr>
+  
+</table>
+</p>
 
-To learn more about Next.js, take a look at the following resources:
+<!-- CONTRIBUTING -->
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
-## Deploy on Vercel
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Related Sroject
+
+:rocket: [`Hirejob Backend`](https://github.com/edoprayoga1999/Telegram-Chatting-App-Backend)
+
+<!-- CONTACT -->
+## Contact
+
+Edo Prayoga - [fb.me/edoprayoga1999](https://facebook.com/edoprayoga1999) - edoprayoga.se@gmail.com
+
+Project Link: [https://github.com/edoprayoga1999/Hirejob-app](https://github.com/edoprayoga1999/Hirejob-app)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
