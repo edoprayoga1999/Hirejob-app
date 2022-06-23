@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/edoprayoga1999/Hirejob-app/">
-    <img src="screenshots/logo.svg" alt="Logo" width="80" height="80">
+    <img src="screenshots/logo.svg" alt="Logo">
   </a>
 
   <h3 align="center">Hirejob - App</h3>
