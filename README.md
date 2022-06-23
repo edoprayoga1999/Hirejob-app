@@ -26,7 +26,7 @@
     <a href="https://axios-http.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/Hirejob-app/axios"></a>
     <a href="https://getbootstrap.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/Hirejob-app/bootstrap"></a>
     <a href="https://momentjs.com/"><img src="https://img.shields.io/github/package-json/dependency-version/edoprayoga1999/Hirejob-app/moment"></a>
-    <img src="https://img.shields.io/github/license/edoprayoga1999/Hirejob-app">
+    <img src="https://img.shields.io/github/license/edoprayoga1999/Hirejob-app?color=blue">
     </p>
   </p>
 </div>
