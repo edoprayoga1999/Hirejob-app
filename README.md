@@ -183,7 +183,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Related Sroject
 
-:rocket: [`Hirejob Backend`](https://github.com/edoprayoga1999/Telegram-Chatting-App-Backend)
+:rocket: [`Hirejob Backend`](#)
 
 <!-- CONTACT -->
 ## Contact
